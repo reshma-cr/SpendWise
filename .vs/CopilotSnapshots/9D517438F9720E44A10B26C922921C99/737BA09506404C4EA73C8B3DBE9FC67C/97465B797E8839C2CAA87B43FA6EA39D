@@ -1,0 +1,14 @@
+﻿@model CreateExpenseViewModel
+
+<form asp-action="Create" method="post">
+    <input asp-for="Amount" />
+    <input asp-for="Date" type="date" />
+
+    <select asp-for="CategoryId"
+            asp-items="@(new SelectList(Model.categories, "Id", "Name"))">
+    </select>
+
+    <textarea asp-for="Description"></textarea>
+
+    <button type="submit">Save</button>
+</form>

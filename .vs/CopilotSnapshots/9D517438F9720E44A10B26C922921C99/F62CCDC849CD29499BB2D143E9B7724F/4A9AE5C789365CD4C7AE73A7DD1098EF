@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-8 mx-auto text-center">
+                <h1 class="lead-heading">Track your spending, take control back</h1>
+                <p class="subtext">Stop wondering where your money goes. SpendWise makes it simple to track money, understand your habits, and build better financial decisions.</p>
+                <a class="btn btn-primary cta-btn" asp-area="" asp-controller="Expense" asp-action="Create">Start Tracking</a>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <img class="hero-image" src="~/images/home-image.jpg" alt="Money and budgeting illustration" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="features-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="features-heading">What makes tracking your money effortless</h2>
+                <p class="features-intro">SpendWise provides you with three core tools that work together to give you clarity on your finances without the noise or confusion.</p>
+            </div>
+        </div>
+
+        <div class="row g-4 mt-3 justify-content-center features-row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-card">
+                    <div class="feature-icon pastel-green">
+                        <!-- Use local Flaticon wallet icon; add image to wwwroot/images/flaticon-wallet.png -->
+                        <img src="~/images/flaticon-wallet.png" alt="Wallet icon" class="card-icon-img" onerror="this.style.display='none'; var fb=this.nextElementSibling; if(fb) fb.style.display='inline-block';" />
+                        <!-- Inline SVG fallback (hidden by default) -->
+                        <svg class="card-icon-fallback" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" style="display:none;" role="img">
+                            <path fill="currentColor" d="M2 7c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v2H2V7z" />
+                            <path fill="currentColor" d="M2 11h20v4c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-4z" />
+                            <circle cx="18" cy="13" r="2" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Track Your Spending</h3>
+                    <p class="feature-subtext">Log and monitor your daily expenses.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-card">
+                    <div class="feature-icon warm-orange">
+                        <!-- Clipboard / checklist SVG -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M9 2h6v2H9z" fill="currentColor" />
+                            <rect x="4" y="4" width="12" height="16" rx="2" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Manage Categories</h3>
+                    <p class="feature-subtext">Organize your expenses by categories.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="feature-card">
+                    <div class="feature-icon blue-accent">
+                        <!-- Bar chart SVG -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="4" y="10" width="3" height="8" fill="currentColor" />
+                            <rect x="10.5" y="6" width="3" height="12" fill="currentColor" />
+                            <rect x="17" y="3" width="3" height="15" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">View Reports &amp; Insights</h3>
+                    <p class="feature-subtext">Analyze your spending with detailed reports.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-12 text-center">
+                <p class="icon-attribution small text-muted">Icons: <a href="https://www.flaticon.com/free-icons/crypto-wallet" title="crypto wallet icons">Crypto wallet icons created by Luvdat - Flaticon</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,123 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+:root {
+  --bg: #d9e8f5; /* light blue background */
+  --highlight: #f2c1ae; /* peach highlight */
+  --primary: #a8d5ba; /* pastel green primary */
+  --accent: #f6e27f; /* warm yellow accent */
+  --muted: #7a7e9e; /* muted grayish purple */
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: var(--bg);
+  color: #1f2937;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* account for fixed navbar */
+body {
+  padding-top: 70px; /* space for fixed navbar height */
+  padding-bottom: 70px; /* space for fixed footer */
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.08rem white, 0 0 0 0.22rem rgba(168,213,186,0.18);
+}
+
+/* Brand logo */
+.brand-logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.4rem;
+  color: var(--accent) !important; /* updated to accent color */
+  padding: 0; /* remove extra padding now that there's no background */
+  border-radius: 0;
+}
+
+/* Navigation tweaks */
+.navbar {
+  background-color: var(--bg);
+}
+
+.navbar .nav-link {
+  color: var(--muted);
+  margin: 0 0.75rem;
+  font-weight: 700;
+}
+
+.navbar .nav-link:hover {
+  color: var(--primary);
+}
+
+.btn-primary {
+  color: #000;
+  background-color: var(--primary);
+  border-color: rgba(0,0,0,0.04);
+  padding: 0.5rem 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  filter: brightness(0.95);
+}
+
+.btn-outline-primary {
+  color: var(--primary);
+  border-color: rgba(168,213,186,0.28);
+  background-color: transparent;
+  padding: 0.45rem 0.85rem;
+  border-radius: 8px;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(168,213,186,0.06);
+}
+
+/* Sign-in / register colors */
+.btn-signin {
+  background-color: var(--highlight);
+  color: #000 !important;
+  border: none;
+  font-weight: 700;
+}
+
+.btn-register {
+  background-color: var(--accent);
+  color: #000 !important;
+  border: none;
+  font-weight: 700;
+}
+
+/* Smaller auth buttons */
+.auth-btn {
+  padding: 0.28rem 0.55rem;
+  font-size: 0.92rem;
+  border-radius: 6px;
+}
+
+/* Hero section */
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero .lead-heading {
+  font-size: 4.4rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: var(--primary); /* use primary variable */
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  letter-spacing: -0.5px;
+}
+
+@media (min-width: 768px) {
+  .hero .lead-heading {

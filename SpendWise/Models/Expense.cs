@@ -1,0 +1,17 @@
+﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
+using SpendWise.Enums;
+
+namespace SpendWise.Models
+{
+    public class Expense
+    {
+        public int Id { get; set; }
+        public decimal Amount { get; set; }
+        public DateTime Date { get; set; }
+        public string? Description { get; set; } = string.Empty;
+        public TransactionType TransactionType { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; } = null!;
+
+    }
+}

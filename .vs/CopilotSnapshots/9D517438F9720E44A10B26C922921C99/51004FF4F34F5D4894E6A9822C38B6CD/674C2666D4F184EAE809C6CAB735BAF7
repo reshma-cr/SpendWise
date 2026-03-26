@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SpendWise</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SpendWise.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand brand-logo" asp-area="" asp-controller="Home" asp-action="Index">SpendWise</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Expense" asp-action="Index">Expenses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Report" asp-action="Index">Reports</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-signin auth-btn me-2" asp-area="" asp-controller="Account" asp-action="Login">Sign In</a>
+                        <a class="btn btn-register auth-btn" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="site-footer fixed-bottom">
+        <div class="container text-center py-4">
+            <div class="footer-top">
+                <a class="footer-brand brand-logo" asp-area="" asp-controller="Home" asp-action="Index">SpendWise</a>
+                <ul class="footer-nav list-unstyled d-flex justify-content-center gap-3 mt-3 mb-0">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+
+            <hr class="footer-divider" />
+
+            <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+                <div class="copyright text-muted">&copy; 2025 SpendWise. All rights reserved.</div>
+                <ul class="footer-links list-unstyled d-flex gap-4 mb-0">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy policy</a></li>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Cookie settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
