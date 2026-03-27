@@ -145,3 +145,4 @@ C:\Users\crres\OneDrive\Desktop\SKILL DEV\DOTNET\SpendWise\SpendWise\obj\Debug\n
 C:\Users\crres\OneDrive\Desktop\SKILL DEV\DOTNET\SpendWise\SpendWise\obj\Debug\net8.0\SpendWise.pdb
 C:\Users\crres\OneDrive\Desktop\SKILL DEV\DOTNET\SpendWise\SpendWise\obj\Debug\net8.0\SpendWise.genruntimeconfig.cache
 C:\Users\crres\OneDrive\Desktop\SKILL DEV\DOTNET\SpendWise\SpendWise\obj\Debug\net8.0\ref\SpendWise.dll
+C:\Users\crres\OneDrive\Desktop\SKILL DEV\DOTNET\SpendWise\SpendWise\obj\Debug\net8.0\SpendWise.sourcelink.json

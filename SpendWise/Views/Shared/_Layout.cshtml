@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -9,19 +9,21 @@
     <link rel="stylesheet" href="~/SpendWise.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand brand-logo" asp-area="" asp-controller="Home" asp-action="Index">SpendWise</a>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm glass-navbar mb-3 fixed-top">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand brand-logo d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                    <div class="brand-icon me-2"><i class="fa-solid fa-wallet"></i></div> SpendWise
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mainNavbar">
-                    <ul class="navbar-nav mx-auto">
+                    <ul class="navbar-nav mx-auto align-items-center">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Expense" asp-action="Index">Expenses</a>
                         </li>
@@ -33,9 +35,9 @@
                         </li>
                     </ul>
 
-                    <div class="d-flex align-items-center">
-                        <a class="btn btn-signin auth-btn me-2" asp-area="" asp-controller="Account" asp-action="Login">Sign In</a>
-                        <a class="btn btn-register auth-btn" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                    <div class="d-flex align-items-center auth-section mt-2 mt-md-0">
+                        <a class="btn btn-outline-signin nav-auth-btn me-2" asp-area="" asp-controller="Account" asp-action="Login">Sign In</a>
+                        <a class="btn btn-primary nav-auth-btn" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
                     </div>
                 </div>
             </div>

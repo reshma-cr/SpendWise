@@ -1,4 +1,4 @@
-﻿@model List<Category>
+@model List<Category>
 
 <div class="container">
     <div class="row mb-3 align-items-center">
@@ -29,8 +29,7 @@
                             <td class="text-center">
                                 <form asp-controller="Category" asp-action="DeleteCategory" asp-route-id="@category.Id" method="post" class="d-inline">
                                     <button type="submit"
-                                            class="btn btn-link p-0"
-                                            style="color: black;"
+                                            class="btn btn-link p-0 action-btn action-btn-danger"
                                             title="Delete">
                                         <i class="fa-solid fa-trash"></i>
                                     </button>

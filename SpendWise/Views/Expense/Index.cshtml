@@ -1,4 +1,4 @@
-﻿@model List<Expense>
+@model List<Expense>
 
 <div class="container">
     <div class="row mb-3 align-items-center">
@@ -34,26 +34,25 @@
                             <td>
                                 @if (expense.TransactionType == TransactionType.Expense)
                                 {
-                                    <span class="text-danger">
-                                        <i class="fa-solid fa-circle-minus"></i> Expense
+                                    <span class="badge-expense">
+                                        <i class="fa-solid fa-arrow-trend-down"></i> Expense
                                     </span>
                                 }
                                 else
                                 {
-                                    <span class="text-success">
-                                        <i class="fa-solid fa-circle-plus"></i> Credit
+                                    <span class="badge-credit">
+                                        <i class="fa-solid fa-arrow-trend-up"></i> Credit
                                     </span>
                                 }
                             </td>
 
-                            <td class="text-center">@String.Format(System.Globalization.CultureInfo.CurrentCulture, "{0:C}", expense.Amount)</td>
+                            <td class="text-center font-monospace fw-semibold">@String.Format(System.Globalization.CultureInfo.CurrentCulture, "{0:C}", expense.Amount)</td>
                             <td class="text-center">
-                                <a asp-controller="Expense" asp-action="Edit" asp-route-id="@expense.Id" class="text-dark d-inline me-2" title="Edit"><i class="fa-solid fa-pen"></i></a>
+                                <a asp-controller="Expense" asp-action="Edit" asp-route-id="@expense.Id" class="action-btn" title="Edit"><i class="fa-solid fa-pen"></i></a>
 
                                 <form asp-controller="Expense" asp-action="DeleteExpense" asp-route-id="@expense.Id" method="post" class="d-inline">
                                     <button type="submit"
-                                            class="btn btn-link p-0"
-                                            style="color: black;"
+                                            class="btn btn-link p-0 action-btn action-btn-danger ms-1"
                                             title="Delete">
                                         <i class="fa-solid fa-trash"></i>
                                     </button>
