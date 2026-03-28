@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|c:\\users\\crres\\onedrive\\desktop\\skill dev\\dotnet\\spendwise\\spendwise\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|solutionrelative:spendwise\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|c:\\users\\crres\\onedrive\\desktop\\skill dev\\dotnet\\spendwise\\spendwise\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|solutionrelative:spendwise\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|c:\\users\\crres\\onedrive\\desktop\\skill dev\\dotnet\\spendwise\\spendwise\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|solutionrelative:spendwise\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|c:\\users\\crres\\onedrive\\desktop\\skill dev\\dotnet\\spendwise\\spendwise\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|solutionrelative:spendwise\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|c:\\users\\crres\\onedrive\\desktop\\skill dev\\dotnet\\spendwise\\spendwise\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|solutionrelative:spendwise\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|c:\\users\\crres\\onedrive\\desktop\\skill dev\\dotnet\\spendwise\\spendwise\\views\\expense\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|solutionrelative:spendwise\\views\\expense\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|c:\\users\\crres\\onedrive\\desktop\\skill dev\\dotnet\\spendwise\\spendwise\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|solutionrelative:spendwise\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD424813-29E2-63A6-D5F8-58F45B9957E5}|SpendWise\\SpendWise.csproj|c:\\users\\crres\\onedrive\\desktop\\skill dev\\dotnet\\spendwise\\spendwise\\views\\expense\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,23 +74,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "SpendWise\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Models\\Category.cs",
-              "RelativeToolTip": "SpendWise\\Models\\Category.cs",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SpendWise\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "SpendWise\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:58:03.246Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-28T16:40:04.657Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SpendWise\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SpendWise\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T16:39:38.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SpendWise\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "SpendWise\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T16:38:54.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "SpendWise\\Views\\Category\\Index.cshtml",
@@ -91,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "SpendWise\\Controllers\\CategoryController.cs",
@@ -104,6 +147,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "SpendWise\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "SpendWise\\Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T06:14:05.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "SpendWise\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Models\\Category.cs",
+              "RelativeToolTip": "SpendWise\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T15:58:03.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Views\\Expense\\Edit.cshtml",
               "RelativeDocumentMoniker": "SpendWise\\Views\\Expense\\Edit.cshtml",
@@ -115,19 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExpenseController.cs",
-              "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\ExpenseController.cs",
-              "RelativeDocumentMoniker": "SpendWise\\Controllers\\ExpenseController.cs",
-              "ToolTip": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Controllers\\ExpenseController.cs",
-              "RelativeToolTip": "SpendWise\\Controllers\\ExpenseController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwEYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T06:14:05.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Views\\Expense\\Index.cshtml",
               "RelativeDocumentMoniker": "SpendWise\\Views\\Expense\\Index.cshtml",
@@ -139,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Views\\Expense\\Create.cshtml",
               "RelativeDocumentMoniker": "SpendWise\\Views\\Expense\\Create.cshtml",
@@ -151,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CreateExpenseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Models\\ViewModels\\CreateExpenseViewModel.cs",
               "RelativeDocumentMoniker": "SpendWise\\Models\\ViewModels\\CreateExpenseViewModel.cs",
@@ -163,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Expense.cs",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "SpendWise\\Models\\Expense.cs",
@@ -175,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "SpendWise.csproj",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\SpendWise.csproj",
               "RelativeDocumentMoniker": "SpendWise\\SpendWise.csproj",
@@ -187,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "SpendWise\\Views\\_ViewImports.cshtml",
@@ -199,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "TransactionTypeEnum.cs",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\Enums\\TransactionTypeEnum.cs",
               "RelativeDocumentMoniker": "SpendWise\\Enums\\TransactionTypeEnum.cs",
@@ -211,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\crres\\OneDrive\\Desktop\\SKILL DEV\\DOTNET\\SpendWise\\SpendWise\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "SpendWise\\wwwroot\\css\\site.css",

@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-sm border-0 p-4 mb-5">
+                <div class="text-center mb-4">
+                    <div class="mb-3">
+                        <i class="fa-solid fa-wallet brand-icon" style="font-size: 2.5rem;"></i>
+                    </div>
+                    <h2 class="fw-bold">Create an Account</h2>
+                    <p class="text-muted">Join SpendWise and take control of your finances.</p>
+                </div>
+
+                <form asp-controller="Account" asp-action="Register" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <div class="mb-3">
+                        <label class="form-label" for="FullName">Full Name</label>
+                        <input type="text" id="FullName" name="FullName" class="form-control" placeholder="John Smith" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="Email">Email Address</label>
+                        <input type="email" id="Email" name="Email" class="form-control" placeholder="name@example.com" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="Password">Password</label>
+                        <input type="password" id="Password" name="Password" class="form-control" placeholder="••••••••" required />
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label" for="ConfirmPassword">Confirm Password</label>
+                        <input type="password" id="ConfirmPassword" name="ConfirmPassword" class="form-control" placeholder="••••••••" required />
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-lg">Register</button>
+                    </div>
+                </form>
+
+                <div class="text-center mt-4 border-top pt-3">
+                    <p class="mb-0 text-muted">Already have an account? <a asp-controller="Account" asp-action="Login" class="text-decoration-none fw-semibold" style="color: var(--cta);">Sign In</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
